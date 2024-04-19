@@ -14,6 +14,10 @@ public class Main {
         int myNum2;
         myNum2 = 22;
         System.out.println(myNum2);
+        String firstName = "John";
+        String lastName = "Cena";
+        String fullName = firstName + lastName;
+        System.out.println(fullName);
 
     }
 }
