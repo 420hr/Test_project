@@ -15,7 +15,5 @@ public class Main {
         myNum2 = 22;
         System.out.println(myNum2);
 
-
-
     }
 }
