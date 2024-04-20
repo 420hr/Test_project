@@ -18,6 +18,5 @@ public class Main {
         String lastName = "Cena";
         String fullName = firstName + lastName;
         System.out.println(fullName);
-
     }
 }
