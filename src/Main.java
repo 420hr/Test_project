@@ -18,5 +18,9 @@ public class Main {
         String lastName = "Cena";
         String fullName = firstName + lastName;
         System.out.println(fullName);
+        char myGrade = 'A';
+        System.out.println(myGrade);
+        double myDouble = myNum2;
+        System.out.println(myDouble);
     }
 }
