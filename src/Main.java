@@ -1,4 +1,4 @@
-
+import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
@@ -22,5 +22,45 @@ public class Main {
         System.out.println(myGrade);
         double myDouble = myNum2;
         System.out.println(myDouble);
+        System.out.println("What is the number of today from the number of days in a week? ");
+        Scanner Ans = new Scanner(System.in);
+        int Day = Ans.nextInt();
+
+        switch (Day){
+            case 1:
+                System.out.println("Monday");
+                break;
+            case 2:
+                System.out.println("Tuesday");
+                break;
+            case 3:
+                System.out.println("Wednessday");
+                break;
+            case 4:
+                System.out.println("Thursday");
+                break;
+            case 5:
+                System.out.println("Friday");
+                break;
+            case 6:
+                System.out.println("Saturday");
+                break;
+            case 7:
+                System.out.println("Sunday");
+                break;
+            default:
+                System.out.println("Try again later");
+        }
+
+        for (int i = 1; i < 2; i++) {
+            System.out.println("Outer:"+i);
+            for (int j = 0; j<= 3; j++) {
+                System.out.println("Inner: " +j);
+            }
+        }
+        String[] cars = {"Volvo","BMW","Ford","Mazda"};
+        for(String i: cars){
+            System.out.println(i);
+        }
     }
 }
